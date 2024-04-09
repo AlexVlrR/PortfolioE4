@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Styles/styles_contact.css">
+</head>
+<body>
+    <header>
+        <div class="container_header">
+            <div class="item_header"><a href="index.html"><h1>REIN Alex</h1></a></div>
+            <div class="item_header"><a href="index.html"><p>ACCUEIL</p></a></div>
+            <div class="item_header"><a href="bts.html"><p>BTS</p></a></div>
+            <div class="item_header"><a href="projet.html"><p>PROJETS</p></a></div>
+            <div class="item_header"><a href="veille_tech.html"><p>VEILLE TECHNOLOGIQUE</p></a></div>
+            <div class="item_header"><a href="contact.html"><p>CONTACT</p></a></div>
+        </div>
+    </header>
+    <main>
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-fomulaire">
+                <div class="contact-left-title">
+                    <h2>Me contacter</h2>
+                </div>
+                <input type="hidden" name="access_key" value="e24721c0-683a-4c9d-a98b-0a6107353d3d">
+                <input type="text" name="name" placeholder="Votre nom" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Votre e-mail" class="contact-inputs" required>
+                <textarea name="message" placeholder="Votre message" class="contact-inputs" required></textarea>
+                <button type="submit"><img src="Img/boutonmsg.png" alt=""></button>
+            </form>
+            <div class="contact_reseau">
+                <img src="Img/AlexREINPhoto.jpg" alt="">
+                <h2>EMAIL</h2>
+                <p>rein.alex.pro@gmail.com</p>
+                <h2>LINKEDIN</h2>
+                <a href="https://www.linkedin.com/in/alex-rein-12094b231/" target="_blank" >Mon likedin</a>
+                <h2>Github</h2>
+                <a href="https://github.com/AlexVlrR" target="_blank" >Mon Github</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
